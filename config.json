@@ -1,0 +1,27 @@
+{
+  "webhookUrl": "",
+  "restartHours": 24,
+  "maxRamMB": 512,
+  "accounts": [
+    { "name": "Unit-01", "token": "", "guildId": "988570725893963876", "channelId": "1538442340438515825", "mute": true, "deaf": false },
+    { "name": "Unit-02", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": false },
+    { "name": "Unit-03", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": false },
+    { "name": "Unit-04", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": false },
+    { "name": "Unit-05", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": false },
+    { "name": "Unit-06", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": false },
+    { "name": "Unit-07", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": false },
+    { "name": "Unit-08", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": false },
+    { "name": "Unit-09", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": false },
+    { "name": "Unit-10", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": false },
+    { "name": "Unit-11", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": false },
+    { "name": "Unit-12", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": true },
+    { "name": "Unit-13", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": true },
+    { "name": "Unit-14", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": true },
+    { "name": "Unit-15", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": true },
+    { "name": "Unit-16", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": true },
+    { "name": "Unit-17", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": true },
+    { "name": "Unit-18", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": true },
+    { "name": "Unit-19", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": true },
+    { "name": "Unit-20", "token": "", "guildId": "676767676767676767", "channelId": "676767676767676767", "mute": true, "deaf": true }
+  ]
+}
