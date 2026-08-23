@@ -197,8 +197,3 @@ Below is the code model for your `config.json` file showing all required variabl
 ## ✨ Summary
 
 **K9K v2** = Advanced local testing tool for Discord voice bots with multi-account support, RAM monitoring, and web dashboard. **Use responsibly** and only for development purposes. Always comply with Discord's Terms of Service.
-
-<tool_call>
-<function=bash>
-<parameter=command>
-node -e "const c=require('fs').readFileSync('C:\\\\Users\\\\aboni\\\\OneDrive\\\\Desktop\\\\token host\\\\README.md','utf8'); console.log('Arabic chars:', c.match(/[\u0600-\u06FF]/g)?c.match(/[\u0600-\u06FF]/g).length:0)"
