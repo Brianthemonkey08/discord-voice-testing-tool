@@ -1,0 +1,12 @@
+{
+  "webhookUrl": "webhook",
+  "restartHours": 24,
+  "maxRamMB": 512,
+  "accounts": [
+    { "name": "Unit-01", "token": "", "guildId": "0000000000000000000", "channelId": "0000000000000000000", "mute": true, "deaf": true },
+    { "name": "Unit-02", "token": "", "guildId": "0000000000000000000", "channelId": "0000000000000000000", "mute": true, "deaf": false },
+    { "name": "Unit-03", "token": "", "guildId": "0000000000000000000", "channelId": "0000000000000000000", "mute": true, "deaf": false },
+    { "name": "Unit-04", "token": "", "guildId": "0000000000000000000", "channelId": "0000000000000000000", "mute": true, "deaf": false },
+    { "name": "Unit-05", "token": "", "guildId": "0000000000000000000", "channelId": "0000000000000000000", "mute": true, "deaf": false }
+  ]
+}
